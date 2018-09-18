@@ -1,0 +1,28 @@
+<div class="container">
+<div class="Rectangle">
+ <div>
+   <img src="../assets/Slice.png" class="vector" alt="" >
+   <img src="../assets/calendar.png" class="calendar" alt="" >
+ </div>
+ <div class="texto">
+   <span class="titulo">UI/UX DESING </span>
+   <span class="clase"> BOOTCAMP</span><br>
+   <span class="ciudad">Ciudad </span>
+   <input type="date" (change)="cambiarFecha($event)">
+ </div>
+</div>
+<div class="listado"  *ngFor="let alumno of alumnos; let index = index">
+ <div class="cuadro_grande">
+   <div class="imagen">
+     <img src="../assets/fotoperfil.png" alt="">
+   </div>
+   <div class="alumno">
+     <span class="nombre">{{alumno.nombre}}</span><br>
+     <span class="apellidos">{{alumno.apellidos}}</span>
+   </div>
+ </div>
+ <div class="cuadro_pequeño"  [ngClass]="{'cuadro_pequeño': falta[index] == 0, 'falta': falta[index] == 1, 'just': falta[index] == 2}"  (click)="faltaAlumno(index)"></div>
+</div>
+<button type="text" class="btn btn_primary" (click)="enviarFaltas()">Aceptar</button>
+</div>
+

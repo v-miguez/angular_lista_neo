@@ -1,0 +1,296 @@
+.Rectangle {
+ width: 375px;
+ height: 90px;
+ background-color: #444444;
+ text-align: center;
+ padding-top: 21px;
+}
+.container{
+	
+	width: 375px;
+
+}
+.texto{
+ text-align: left;
+ color: #ffffff
+}
+.vector {
+ width: 40px;
+ height: 40px;
+ background-color: #ffffff;
+ float:left;
+}
+.calendar{
+ width: 40px;
+ height: 40px;
+ background-color: #ffffff;
+ float: right;
+ margin-right: 10px;
+ border:none;
+ text-decoration: none;
+}
+.titulo {
+ width: 251px;
+ height: 25px;
+ font-family: 'Source Sans Pro', sans-serif;
+ font-size: 22px;
+ font-weight: bold;
+ font-style: normal;
+ font-stretch: normal;
+ line-height: normal;
+ letter-spacing: normal;
+ color: #ffffff;
+}
+.clase{
+ font-weight: normal;
+ font-size: 22px;
+ font-family: 'Source Sans Pro', sans-serif;
+}
+.ciudad{
+ margin-right: 10px;
+}
+/* fin de cabecera */
+
+.listado{
+ margin: 15px auto;
+ margin-left: 5px;
+ margin-right: 5px;
+}
+/* cuadro grande */
+
+.cuadro_grande{
+ width: 240px;
+ height: 110px;
+ box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.25);
+ background-color: #ffffff;
+ border: solid 0 #ffffff;
+ float: left;
+ margin-right: 10px;
+ display: flex
+
+}
+.imagen {
+  border-radius: 50%;
+ width: 90px;
+ height: 90px;
+ object-fit: contain;
+ float: left;
+ margin-top: 10px;
+}
+
+.imagen img{
+  border-radius: 190%;
+}
+
+.alumno{
+ float: right;
+ margin-top: 30px;
+
+}
+.nombre {
+ width: 300px !important;
+ height: 23px;
+ font-family: 'Source Sans Pro', sans-serif;
+ font-size: 18px;
+ font-weight: 600;
+ font-style: normal;
+ font-stretch: normal;
+ line-height: normal;
+ letter-spacing: normal;
+ color: #000000;
+ text-align: center;
+}
+.apellidos {
+ width: 125px;
+ height: 20px;
+ font-family: 'Source Sans Pro', sans-serif;
+ font-size: 18px;
+ font-weight: normal;
+ font-style: normal;
+ font-stretch: normal;
+ line-height: normal;
+ letter-spacing: normal;
+ color: #000000;
+ text-align: center;
+}
+/* fin de cuadro pequeño */
+/* cuadro pequeño */
+.cuadro_pequeño {
+ width: 105px;
+ height: 110px;
+ box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.25);
+ background-color: #ffffff;
+ border: solid 0 #444444;
+ float: right;
+}
+/* fin de cuadro pequeño */
+/* principo del boton */
+.btn {
+ width: 345px;
+ height: 55px;
+ background-color: #48b0ed;
+ margin-top:15px;
+ margin-left: 15px;
+ border-radius: 17px;
+ border:none;
+ text-decoration: none;
+}
+.btn_primary {
+ font-family: 'Source Sans Pro', sans-serif;
+ font-size: 24px;
+ font-weight: 600;
+ font-style: normal;
+ font-stretch: normal;
+ line-height: normal;
+ letter-spacing: normal;
+ color: #ffffff;
+}
+
+.falta{
+ width: 105px;
+ height: 110px;
+ box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.25);
+ background-color: red;
+ border: solid 0 #444444;
+ float: right;
+
+}
+
+.just{
+
+width: 105px;
+ height: 110px;
+ box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.25);
+ background-color: orange;
+ border: solid 0 #444444;
+ float: right;
+
+}
+   .texto{
+    text-align: left;
+    color: #ffffff
+   }
+   .vector {
+    width: 40px;
+    height: 40px;
+    background-color: #ffffff;
+    float:left;
+   }
+   .calendar{
+      width: 40px;
+      height: 40px;
+      background-color: #ffffff;
+      float: right;
+      margin-right: 10px;
+      border:none;
+      text-decoration: none;
+   }
+   .titulo {
+    width: 251px;
+    height: 25px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+   }
+   .clase{
+    font-weight: normal;
+    font-size: 22px;
+    font-family: 'Source Sans Pro', sans-serif;
+   }
+   .ciudad{
+    margin-right: 10px;
+   }
+   /* fin de cabecera */
+   
+   .listado{
+    margin: 15px auto;
+    margin-left: 5px;
+    margin-right: 5px;
+   }
+   /* cuadro grande */
+   
+   .cuadro_grande{
+    width: 240px;
+    height: 110px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.25);
+    background-color: #ffffff;
+    border: solid 0 #ffffff;
+    float: left;
+    margin-right: 10px;
+   }
+   .imagen {
+    width: 90px;
+    height: 90px;
+    object-fit: contain;
+    float: left;
+    margin-top: 10px;
+   }
+   .alumno{
+    float: right;
+    margin-top: 30px;
+   
+   }
+   .nombre {
+    width: 33px;
+    height: 23px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #000000;
+    text-align: center;
+   }
+   .apellidos {
+    width: 125px;
+    height: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #000000;
+    text-align: center;
+   }
+   /* fin de cuadro pequeño */
+   /* cuadro pequeño */
+   .cuadro_pequeño {
+    width: 105px;
+    height: 110px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.25);
+    background-color: #ffffff;
+    border: solid 0 #444444;
+    float: right;
+   }
+   /* fin de cuadro pequeño */
+   /* principo del boton */
+   .btn {
+    width: 345px;
+    height: 55px;
+    background-color: #48b0ed;
+    margin-top:15px;
+    margin-left: 15px;
+    border-radius: 17px;
+    border:none;
+    text-decoration: none;
+   }
+   .btn_primary {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+   }
+   /* fin del boton */

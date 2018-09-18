@@ -1,0 +1,92 @@
+/* PRINCIPIO DEL LOGIN */
+.container{
+ width: 187.5px;
+ height: 333.5px;
+ text-align:center;
+ padding-top: 175px;
+}
+.Logo {
+ width: 229px;
+ height: 40px;
+ margin-left:65px;
+ padding-bottom: 85px;
+
+}
+.Rectangle {
+ margin-right: 14px;
+ margin-left: 5px;
+ margin-bottom: 10px;
+ width: 345px !important;
+ height: 50px !important;
+ border-radius: 7px;
+ background-color: #dddddd;
+ border:none;
+ text-decoration: none;
+ font-family: 'Source Sans Pro Regular', sans-serif;
+ font-size:18px;
+ text-align: center;
+}
+.Rectangle-2 {
+ width: 15px;
+ height: 15px;
+ border-radius: 3px;
+ border: solid 1px #a3a3a3;
+ margin-left:72.5px;
+}
+.Recuerdame {
+ margin-top:7.5px;
+ font-family: 'Source Sans Pro', sans-serif;
+ font-weight: normal;
+ font-style: normal;
+ font-stretch: normal;
+ line-height: normal;
+ letter-spacing: normal;
+ color: #000000;
+}
+.form-check{
+
+ width: 100%;
+}
+.form-group{
+ width: 300px !important;
+}
+.Shape {
+ margin-top:37.5px;
+ width: 345px;
+ height: 55px;
+ background-color: #f74848;
+ border:none;
+ text-decoration: none;
+ border-radius: 17px;
+}
+.Acceder {
+ text-align: center;
+ font-family: 'Source Sans Pro', sans-serif;
+ font-size: 24px;
+ font-weight: 600;
+ text-align: center;
+ font-style: normal;
+ font-stretch: normal;
+ line-height: normal;
+ letter-spacing: normal;
+ color: #ffffff;
+}
+p{
+   color: #f74848;
+   font-family: 'Source Sans Pro', sans-serif;
+ } 
+ #error{
+     width: 100%;
+     margin: 0 90px !important;
+     
+ }
+
+
+
+input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill {
+ background-color:black !important;
+ background-image: none !important;
+ color: rgb(0, 0, 0) !important;
+}
+
+/* FINAL DEL LOGIN */

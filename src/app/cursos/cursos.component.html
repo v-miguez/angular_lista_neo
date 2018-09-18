@@ -1,0 +1,20 @@
+<div class="container">
+  <div class="Rectangle-4">
+     <p class="Madrid">Madrid</p>
+  </div>
+  <div class="bootcamp" *ngFor="let curso of cursos" (click)="elegirCurso(curso.id)">
+    <span class="bootcamp1">{{curso.nombreClase}}</span>
+    <span [ngClass]="{'bootcamp_rojo': curso.tipos == 'Boot Camp', 'part_azul': curso.tipos == 'Part Time', 'user1': curso.tipos == Otros}"> {{curso.tipos}}</span>
+  </div>
+
+
+
+
+ <!--  <div class="part">
+    <span class="part1">UX/ UI DESIGN</span>
+    <span class="part_azul"> PART-TIME</span>
+  </div>
+  <div class="user">
+    <span class="user1">USER EXPERIENCE DESIGN</span>
+  </div> -->
+</div>
