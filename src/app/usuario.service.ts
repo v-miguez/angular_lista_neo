@@ -8,7 +8,7 @@ export class UsuarioService {
     baseUrl: any;
 
     constructor(private http: Http) {
-        this.baseUrl = 'http://localhost:3000';
+        this.baseUrl = 'http://fbc2e51b.ngrok.io';
     }
 
 
